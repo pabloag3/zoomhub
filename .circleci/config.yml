@@ -136,6 +136,8 @@ jobs:
       - persist_to_workspace:
           root: workspace
           paths:
+            - migrate-database
+            - migrate-database.sh
             - zoomhub.keter
             - deploy.sh
 
